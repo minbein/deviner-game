@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
           themeIcon.alt = "Modo Escuro";
   
           const existingStylesheet = document.querySelector(
-            'link[href="./styles/darkmode.css"]'
+            'link[href="../styles/darkmode.css"]'
           );
           if (!existingStylesheet) {
             head.appendChild(darkModeStylesheet);
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
           themeIcon.alt = "Modo Claro";
   
           const existingStylesheet = document.querySelector(
-            'link[href="./styles/darkmode.css"]'
+            'link[href="../styles/darkmode.css"]'
           );
           if (existingStylesheet) {
             head.removeChild(existingStylesheet);
