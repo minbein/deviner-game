@@ -1,5 +1,5 @@
 body.dark {
-    background-image: url("../src/darkbackground.png");
+    background-image: url("/darkbackground.png");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Amatic SC", cursive;

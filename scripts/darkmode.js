@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const darkModeStylesheet = document.createElement("link");
       
       
-      darkModeStylesheet.href = "../styles/darkmode.css";
+      darkModeStylesheet.href = "./styles/darkmode.css";
       darkModeStylesheet.rel = "stylesheet";
   
       darkModeButton.addEventListener("click", () => {
@@ -15,21 +15,21 @@ document.addEventListener("DOMContentLoaded", function () {
         body.classList.toggle("dark");
   
         if (body.classList.contains("dark")) {
-          themeIcon.src = "../src/moon.png";
+          themeIcon.src = "/moon.png";
           themeIcon.alt = "Modo Escuro";
   
           const existingStylesheet = document.querySelector(
-            'link[href="../styles/darkmode.css"]'
+            'link[href="./styles/darkmode.css"]'
           );
           if (!existingStylesheet) {
             head.appendChild(darkModeStylesheet);
           }
         } else {
-          themeIcon.src = "../src/sun.png";
+          themeIcon.src = "/sun.png";
           themeIcon.alt = "Modo Claro";
   
           const existingStylesheet = document.querySelector(
-            'link[href="../styles/darkmode.css"]'
+            'link[href="./styles/darkmode.css"]'
           );
           if (existingStylesheet) {
             head.removeChild(existingStylesheet);
