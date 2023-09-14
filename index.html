@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-nr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Deviner</title>
 
-    <script src="./scripts/index.js" defer></script>
-    <script src="./scripts/darkmode.js" defer></script>
-    
-    
-    <link rel="stylesheet" href="./styles/index.css" />
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deviner</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <main class="main__container">
-      <button id="darkModeButton">
-        <img src="src/sun.png" alt="Modo Claro" id="themeIcon" />
-      </button>
-
-      <h1>Deviner</h1>
-      <p>Tente adivinhar o número entre 1 e 100:</p>
-      <p class="score">Pontuação: 0</p>
-      <input type="text" id="guessField" />
-      <input type="submit" value="Enviar palpite" id="guessSubmit" />
-      <p class="message"></p>
-
-      <a href="https://github.com/minbein" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github black-icon"></i>
-      </a>
-    </main>
+  <script src="./scripts/index.js" defer></script>
+  <script src="./scripts/darkmode.js" defer></script>
 
 
-  </body>
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="stylesheet" href="./styles/darkmode.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <main class="main__container">
+    <button id="darkModeButton">
+      <img src="./src/sun.png" alt="Modo Claro" id="themeIcon" />
+    </button>
+
+    <h1>Deviner</h1>
+    <p>Tente adivinhar o número entre 1 e 100:</p>
+    <p class="score">Pontuação: 0</p>
+    <input type="text" id="guessField" />
+    <input type="submit" value="Enviar palpite" id="guessSubmit" />
+    <p class="message"></p>
+
+    <a href="https://github.com/minbein" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-github black-icon"></i>
+    </a>
+  </main>
+
+
+</body>
+
 </html>
