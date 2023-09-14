@@ -1,5 +1,5 @@
 body.dark {
-    background-image: url("/darkbackground.png");
+    background-image: url("/src/darkbackground.png");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Amatic SC", cursive;
@@ -9,7 +9,7 @@ body.dark {
     min-height: 100vh;
     margin: 0;
     font-size: 25px;
-    color: white; /* Define a cor do texto como branco */
+    color: white;
 }
 
 main.dark {
@@ -20,5 +20,5 @@ main.dark {
     margin: 0 auto;
     margin-top: 100px;
     padding: 120px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Adiciona sombra preta */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }

@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         body.classList.toggle("dark");
   
         if (body.classList.contains("dark")) {
-          themeIcon.src = "/moon.png";
+          themeIcon.src = "/src/moon.png";
           themeIcon.alt = "Modo Escuro";
   
           const existingStylesheet = document.querySelector(
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
             head.appendChild(darkModeStylesheet);
           }
         } else {
-          themeIcon.src = "/sun.png";
+          themeIcon.src = "/src/sun.png";
           themeIcon.alt = "Modo Claro";
   
           const existingStylesheet = document.querySelector(
@@ -34,12 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
           if (existingStylesheet) {
             head.removeChild(existingStylesheet);
           }
-        }
-  
-        if (body.classList.contains("dark")) {
-          console.log("A classe 'dark' foi adicionada ao body.");
-        } else {
-          console.log("A classe 'dark' foi removida do body.");
         }
       });
     }
