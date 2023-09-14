@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
       body.classList.toggle("dark");
 
       if (body.classList.contains("dark")) {
-        themeIcon.src = "../src/moon.png";
+        themeIcon.src = "/src/moon.png";
         themeIcon.alt = "Modo Escuro";
 
         const existingStylesheet = document.querySelector(
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
           head.appendChild(darkModeStylesheet);
         }
       } else {
-        themeIcon.src = "../src/sun.png";
+        themeIcon.src = "/src/sun.png";
         themeIcon.alt = "Modo Claro";
 
         const existingStylesheet = document.querySelector(
