@@ -1,0 +1,70 @@
+body {
+  background-image: url("../src/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  font-family: "Amatic SC", cursive;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  font-size: 25px;
+}
+.main__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 120px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin: 0px;
+  font-size: 4em;
+}
+
+#guessField {
+  width: 80%;
+  padding: 10px;
+
+  border-radius: 20px;
+  border: 2px white solid;
+  cursor: pointer;
+}
+#guessField:hover {
+  border: 2px #98add7 solid;
+}
+
+#guessSubmit {
+  width: 50%;
+  padding: 10px;
+  margin-top: 20px;
+
+  border-radius: 20px;
+  border: 2px #98add7 solid;
+  cursor: pointer;
+
+  background-color: #98add7;
+}
+#guessSubmit:hover {
+  border: 2px white solid;
+  color: white;
+  background-color: #b1c6e4;
+}
+.message {
+  font-size: 20px;
+  margin-top: 10px;
+}
+#darkModeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
