@@ -1,5 +1,5 @@
 body {
-  background-image: url("/src/background.png");
+  background-image: url("../src/background.png");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -12,6 +12,7 @@ body {
   margin: 0;
   font-size: 25px;
 }
+
 .main__container {
   display: flex;
   flex-direction: column;
@@ -37,6 +38,7 @@ h1 {
   border: 2px white solid;
   cursor: pointer;
 }
+
 #guessField:hover {
   border: 2px #98add7 solid;
 }
@@ -52,19 +54,20 @@ h1 {
 
   background-color: #98add7;
 }
+
 #guessSubmit:hover {
   border: 2px white solid;
   color: white;
   background-color: #b1c6e4;
 }
+
 .message {
   font-size: 20px;
   margin-top: 10px;
 }
+
 #darkModeButton {
   background: none;
   border: none;
   cursor: pointer;
 }
-
-
